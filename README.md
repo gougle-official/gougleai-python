@@ -9,7 +9,7 @@ The Gougle AI API include Gougle AI models.
     </tr>
     <tr>
         <td>GLT-1</td>
-        <td>gougleai.models.glt.1</td>
+        <td>gougleai.models.glt.glt1</td>
     </tr>
 </table>
 
