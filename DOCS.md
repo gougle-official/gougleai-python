@@ -1,4 +1,15 @@
 # Gougle AI API Docs
+## Usages
+### For `python` with `pip` in `cmd` :
+```shell
+pip install gougleai
+```
+
+### For `javascript` with `cdn` in `html` page :
+```html
+<script src="https://api.withgougle.cf/ai/gougleai-js" type="text/javascript"></script>
+```
+
 ## Models
 <table>
     <tr>
