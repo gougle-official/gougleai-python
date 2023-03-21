@@ -29,3 +29,5 @@ def complete(model, prompt:str, maxTokenNumber:int = 100):
 				raise Exception("Cannot complete empty string.")
 		else:
 			raise Exception("Model '" + str(model) + "' not found in gougleai API.")
+
+			
