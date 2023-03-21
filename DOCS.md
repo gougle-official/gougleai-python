@@ -41,10 +41,23 @@ while True:
 ```
 
 ### `javascript`
-```html
 
+#### `html`
+```html
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<input type="text" id="myInput">
+		<p id="myParagraph"></p>
+		<script src="https://api.withgougle.cf/ai/gougleai-js" type="text/javascript"></script>
+		<script src="./app.js" type="text/javascript"></script>
+	</body>
+</html>
 ```
 
+#### `javascript`
 ```javascript
 gougleai.apiKey = "YOU_API_KEY_HERE";
 userInput = document.getElementById("myInput");
