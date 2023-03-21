@@ -1,6 +1,6 @@
-# Path to python.exe: "U:\prive\Applications\Python\python.exe"
-# Exuecute cmd line: '"U:\prive\Applications\Python\python.exe" ./gougleai.py'
-# Install <requests> with pip: '"U:\prive\Applications\Python\Scripts\pip.exe" install requests'
+# Path to python.exe: "C:\Program Files (x86)\Python\python.exe"
+# Exuecute cmd line: '"C:\Program Files (x86)\Python\python.exe" ./gougleai.py'
+# Install <requests> with pip: '"C:\Program Files (x86)\Python\Scripts\pip.exe" install requests'
 
 import requests
 
