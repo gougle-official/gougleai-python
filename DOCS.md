@@ -23,6 +23,7 @@ pip install gougleai
 </table>
 
 ## Example
+### `python`
 ```python
 # Path to python.exe: "C:\Program Files (x86)\Python\python.exe"
 # Exuecute cmd line: '"C:\Program Files (x86)\Python\python.exe" ./example.py'
@@ -37,4 +38,23 @@ while True:
 	response = gougleai.complete(model = gougleai.models.glt.glt1, prompt = userInput, maxTokenNumber = 100)
 	
 	print("GLT-1: " + response.choices[0])
+```
+
+### `javascript`
+```html
+
+```
+
+```javascript
+gougleai.apiKey = "YOU_API_KEY_HERE";
+userInput = document.getElementById("myInput");
+textOutput = document.getElementById("myParagraph");
+
+userInput.addEventListener("submit", () => {
+	prompt = userInput.value;
+	
+	response = gougleai.complete(gougleai.models.glt.glt1, prompt, 100);
+	
+	textOutput.textContent = "GLT-1: " + response.choices[0];
+});
 ```
