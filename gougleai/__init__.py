@@ -1,1 +1,1 @@
-from . import gougleai
+from gougleai import *
