@@ -7,7 +7,7 @@ setup(
     author_email='gouglellc@gmail.com',
     description='The Python package for Gougle AI API.',
     long_description='The Python package for Gougle AI API. GitHub: https://www.github.com/gougle-official/gougleai-python . Docs: https://www.github.com/gougle-official/gougleai-python/blob/main/DOCS.md , docs.withgougle.cf/api/ai/python .',
-    packages=['gougleai'],
+    packages=[],
     install_requires=[],
     classifiers=[
         'Programming Language :: Python :: 3',
