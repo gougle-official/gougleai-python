@@ -2,16 +2,10 @@
 The Gougle AI API include Gougle AI models.
 
 # Models
-<table>
-    <tr>
-        <th>Model Name</th>
-        <th>Model ID</th>
-    </tr>
-    <tr>
-        <td>GLT-1</td>
-        <td>gougleai.models.glt.glt1</td>
-    </tr>
-</table>
+| Model Name | Model ID                   |
+| ---------- | -------------------------- |
+| GLT-1      | gougleai.models.glt.glt1   |
+| GLT-1.0.5  | gougleai.models.glt.glt105 |
 
 # Docs
 [https://www.github.com/gougle-official/gougleai-python/DOCS.md](https://github.com/gougle-official/gougleai-python/blob/main/DOCS.md)
