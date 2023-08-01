@@ -2,10 +2,12 @@
 The Gougle AI API include Gougle AI models.
 
 # Models
-| Model Name | Model ID                   |
-| ---------- | -------------------------- |
-| GLT-1      | gougleai.models.glt.glt1   |
-| GLT-1.0.5  | gougleai.models.glt.glt105 |
+| Model Name     | Model ID                   | Model Type                          |
+| -------------- | -------------------------- | ----------------------------------- |
+| GLT-1          | gougleai.models.glt.glt1   | Chat Completion and Text Completion |
+| GLT-1.0.5 Beta | gougleai.models.glt.glt105 | Chat Completion and Text Completion |
+| GIC-1          | gougleai.models.gic.gic1   | Image Generation                    |
+| GIC-1.0.5 Beta | gougleai.models.gic.gic105 | Image Generation                    |
 
 # Docs
 See [DOCS.md](https://github.com/gougle-official/gougleai-python/blob/main/DOCS.md) for the docs.
