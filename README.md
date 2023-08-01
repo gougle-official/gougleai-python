@@ -1,4 +1,5 @@
 # Gougle AI API `python`
+[![Upload Python Package](https://github.com/gougle-official/gougleai-python/actions/workflows/python-publish.yml/badge.svg?event=deployment_status)](https://github.com/gougle-official/gougleai-python/actions/workflows/python-publish.yml)  
 The Gougle AI API include Gougle AI models.
 
 # Models
