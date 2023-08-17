@@ -21,12 +21,9 @@ pip install gougleai
 ## Example
 ### `python`
 ```python
-# Path to python.exe: "C:\Program Files (x86)\Python\python.exe"
-# Exuecute cmd line: '"C:\Program Files (x86)\Python\python.exe" ./example.py'
-
 import gougleai
 
-gougleai.apiKey = "gougle"
+gougleai.apiKey = "YOUR_API_KEY_HERE"
 
 while True:
 	userInput = input("User: ")
