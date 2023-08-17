@@ -11,16 +11,12 @@ pip install gougleai
 ```
 
 ## Models
-<table>
-    <tr>
-        <th>Model Name</th>
-        <th>Model ID</th>
-    </tr>
-    <tr>
-        <td>GLT-1</td>
-        <td>gougleai.models.glt.glt1</td>
-    </tr>
-</table>
+| Model Name     | Model ID                   | Model Type                          |
+| -------------- | -------------------------- | ----------------------------------- |
+| GLT-1          | gougleai.models.glt.glt1   | Chat Completion and Text Completion |
+| GLT-1.0.5 Beta | gougleai.models.glt.glt105 | Chat Completion and Text Completion |
+| GIC-1          | gougleai.models.gic.gic1   | Image Generation                    |
+| GIC-1.0.5 Beta | gougleai.models.gic.gic105 | Image Generation                    |
 
 ## Example
 ### `python`
