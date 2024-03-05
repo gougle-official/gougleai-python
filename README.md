@@ -13,4 +13,4 @@ The Gougle AI API include Gougle AI models.
 See [DOCS.md](https://github.com/gougle-official/gougleai-python/blob/main/DOCS.md) for the docs.
 
 # More spécifications
-To see more than about Gougle AI API, you can read https://www.github.com/gougle-official/gougleai for `all` or https://www.github.com/gougle-official/gougleai-javascript for `javascript`. 
+To see more about Gougle AI API, you can read [`gougle-official/gougleai`](https://www.github.com/gougle-official/gougleai) for `all` or [`gougle-official/gougleai-javascript`](https://www.github.com/gougle-official/gougleai-javascript) for `javascript`. 
