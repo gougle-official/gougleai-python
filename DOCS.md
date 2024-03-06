@@ -15,7 +15,7 @@ pip install gougleai
 
 ## Example
 `python`: 
-```python
+```py
 import gougleai
 
 gougleai.apiKey = "YOUR_API_KEY_HERE"
