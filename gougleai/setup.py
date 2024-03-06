@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='gougleai',
-    version='1.0.5.4',
+    version='1.0.5.5',
     author='Gougle AI LLC',
     author_email='gouglellc@gmail.com',
     description='The Python package for Gougle AI API.',
@@ -15,5 +15,5 @@ setup(
     install_requires=[
         'requests',
     ],
-    package_data={'': ['../LICENSE']}
+    license='GPL-2.0',
 )
