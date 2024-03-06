@@ -10,6 +10,7 @@ setup(
     long_description_content_type='text/markdown',
     url='https://www.github.com/gougle-official/gougleai-python',
     packages=find_packages(),
+    py_modules=['gougleai'],
     python_requires='>=3.6',
     install_requires=[
         'requests',
