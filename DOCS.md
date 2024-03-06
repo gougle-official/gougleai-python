@@ -27,3 +27,5 @@ while True:
 	
 	print("GLT-1: " + response.choices[0])
 ```
+## More docs
+To see more docs about Gougle AI API, you can read [`gougle-official/gougleai/DOCS.md`](https://www.github.com/gougle-official/gougleai/blob/main/DOCS.md) for `all` or [`gougle-official/gougleai-javascript/DOCS.md`](https://www.github.com/gougle-official/gougleai-javascriptblob/main/DOCS.md) for `javascript`. 
