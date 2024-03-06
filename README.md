@@ -1,7 +1,7 @@
 # Gougle AI API `python`
 The Gougle AI API include Gougle AI models.
 
-# Models
+## Models
 | Model Name     | Model ID                     | Model Type                          |
 | -------------- | ---------------------------- | ----------------------------------- |
 | GLT-1          | `gougleai.models.glt.glt1`   | Chat Completion and Text Completion |
@@ -9,8 +9,8 @@ The Gougle AI API include Gougle AI models.
 | GIC-1          | `gougleai.models.gic.gic1`   | Image Generation                    |
 | GIC-1.0.5 Beta | `gougleai.models.gic.gic105` | Image Generation                    |
 
-# Docs
+## Docs
 See [`DOCS.md`](https://github.com/gougle-official/gougleai-python/blob/main/DOCS.md) for the docs.
 
-# More specifications
+## More specifications
 To see more about Gougle AI API, you can read [`gougle-official/gougleai`](https://www.github.com/gougle-official/gougleai) for `all` or [`gougle-official/gougleai-javascript`](https://www.github.com/gougle-official/gougleai-javascript) for `javascript`. 
