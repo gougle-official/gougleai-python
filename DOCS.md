@@ -14,7 +14,7 @@ pip install gougleai
 | GIC-1.0.5 Beta | `gougleai.models.gic.gic105` | Image Generation                    |
 
 ## Example
-`python`: 
+`python`
 ```py
 import gougleai
 
