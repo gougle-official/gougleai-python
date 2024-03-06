@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='gougleai',
-    version='1.0.5.2',
+    version='1.0.5.3',
     author='Gougle AI LLC',
     author_email='gouglellc@gmail.com',
     description='The Python package for Gougle AI API.',
