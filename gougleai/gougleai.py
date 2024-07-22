@@ -5,21 +5,30 @@ apiKey = ""
 orgId = ""
 
 class models:
-	list = """GLT-1: gougleai.models.glt.glt1 (gougleai.models.glt.versions[0])
-GLT-1.0.5 Beta: gougleai.models.glt.glt105 (gougleai.models.glt.versions[1])
-GIC-1: gougleai.models.gic.gic1 (gougleai.models.gic.versions[0])
-GIC-1.0.5 Beta: gougleai.models.gic.gic105 (gougleai.models.gic.versions[1])"""
-	
-	class glt:
-		glt1 = "gougleai.models.glt.glt1"
-		glt105 = "gougleai.model.glt.glt105"
-		versions = [glt1, glt105]
-	class gic:
-		gic1 = "gougleai.models.gic.gic1"
-		gic105 = "gougleai.model.glt.gic105"
-		versions = [gic1, gic105]
+	@property
+	def list(self):
+		lst = ""
 
-def complete(model, prompt:str, maxTokenNumber:int = 100):
+		for e in self.__dict__:
+			if isinstance(e, dict):
+				for i, n in enumerate(e.items()):
+					lst += f"{n[1]}: gougleai.models.{e.__name__}[\"{n[0]}\"] (gougleai.models.{e.__name__}.versions[{i}])\n"
+
+		return lst
+	
+	glt = {
+		"glt-1": "GLT-1",
+		"glt-1.0.5": "GLT-1.0.5"
+	}
+	glt["versions"] = [e for e in glt.values()]
+	
+	gic = {
+		"gic-1": "GLT-1",
+		"gic-1.0.5": "GLT-1.0.5"
+	}
+	gic["versions"] = [e for e in glt.values()]
+
+def complete(model, prompt: str, maxTokenNumber: int = 100):
 	if apiKey == "":
 		raise Exception("API Key cannot be empty string.")
 	else:
